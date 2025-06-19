@@ -22,7 +22,7 @@ def preprocess(text):
 
 # === Streamlit UI ===
 st.title("Klasifikasi Sentimen Komentar Growtopia")
-st.markdown("Masukkan komentar pengguna untuk melihat sentimennya (positif, netral, atau negatif).")
+st.markdown("Masukkan komentar pengguna untuk melihat sentimennya (positif, atau negatif).")
 
 input_text = st.text_area("Komentar Pengguna:")
 

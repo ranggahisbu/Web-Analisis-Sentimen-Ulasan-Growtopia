@@ -21,6 +21,7 @@ def preprocess(text):
     return ' '.join(filtered)
 
 # === Streamlit UI ===
+st.image("growtopia_logo.png", width=150)
 st.title("Klasifikasi Sentimen Komentar Growtopia")
 st.markdown("Masukkan komentar pengguna untuk melihat sentimennya (positif, atau negatif).")
 
